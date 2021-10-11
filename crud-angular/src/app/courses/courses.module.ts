@@ -4,6 +4,7 @@ import { MaterialModule } from '../shared/material/material.module';
 
 import { CoursesRoutingModule } from './courses-routing.module';
 import { CoursesComponent } from './courses.component';
+import { CoursesService } from './services/courses.service';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { CoursesComponent } from './courses.component';
     CommonModule,
     CoursesRoutingModule,
     MaterialModule
-  ]
+  ],
+  providers: [CoursesService]
 })
 export class CoursesModule { }
