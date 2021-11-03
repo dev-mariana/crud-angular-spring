@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { MaterialModule } from '../shared/material/material.module';
 
 import { CoursesRoutingModule } from './courses-routing.module';
+import { SharedModule } from './../shared/shared.module';
 import { CoursesComponent } from './courses.component';
 import { CoursesService } from './services/courses.service';
 
@@ -14,7 +15,8 @@ import { CoursesService } from './services/courses.service';
   imports: [
     CommonModule,
     CoursesRoutingModule,
-    MaterialModule
+    MaterialModule,
+    SharedModule
   ],
   providers: [CoursesService]
 })
