@@ -1,4 +1,4 @@
-package com.loiane.crudspring;
+package com.loiane;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
